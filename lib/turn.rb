@@ -38,7 +38,7 @@ def turn(board)
     move(board, index, player = "X")
     display_board(board)
   else
-    puts "Please put a valid number"
+    turn(board)
   end
 end
 
